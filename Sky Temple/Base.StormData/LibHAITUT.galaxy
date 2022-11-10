@@ -85,19 +85,41 @@ void libHAITUT_gt_ShufflePickHeroSelectionCallback_Init () {
 }
 
 void libHAITUT_gf_ARM_HeroPickUIInit () {
+  int init_i;
 
   libGame_gv_heroPickDone = false;
+  
+  for (init_i = 0; init_i <= libCore_gv_bALMaxPlayers; init_i += 1) {
+    if ((CatalogEntryIsValid(c_gameCatalogButton, "Player" + IntToString(init_i) + "Hero") == true)) {
+      libGame_gv_players[init_i].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player" + IntToString(init_i) + "Hero", "Icon", 0));
+    }
+    else {
+      libGame_gv_players[init_i].lv_heroIndex = libGame_gf_HeroSelectionRandomlyPickMetaUnusedHero(init_i);
+      if ((libGame_gv_players[init_i].lv_heroIndex == 0)) {
+          libGame_gv_players[init_i].lv_heroIndex = libGame_gf_HeroSelectionRandomlyPickUnusedHeroWithRole(init_i, true, true, true, true, true, false);
+          if ((libGame_gv_players[init_i].lv_heroIndex == 0)) {
+              libGame_gv_players[init_i].lv_heroIndex = libGame_gf_HeroSelectionRandomlyPickAnyUnusedHero(init_i, false, false);
+              if ((libGame_gv_players[init_i].lv_heroIndex == 0)) {
+                  libGame_gv_players[init_i].lv_heroIndex = libGame_gf_HeroSelectionRandomlyPickAnyUnusedHero(init_i, true, false);
+                  if ((libGame_gv_players[init_i].lv_heroIndex == 0)) {
+                      libGame_gv_players[init_i].lv_heroIndex = libGame_gf_HeroSelectionRandomlyPickAnyUnusedHero(init_i, true, true);
+                  }
+              }
+          }
+      }
+    }
+}
 
-  libGame_gv_players[1].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player1Hero", "Icon", 0));
-  libGame_gv_players[2].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player2Hero", "Icon", 0));
-  libGame_gv_players[3].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player3Hero", "Icon", 0));
-  libGame_gv_players[4].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player4Hero", "Icon", 0));
-  libGame_gv_players[5].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player5Hero", "Icon", 0));
-  libGame_gv_players[6].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player6Hero", "Icon", 0));
-  libGame_gv_players[7].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player7Hero", "Icon", 0));
-  libGame_gv_players[8].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player8Hero", "Icon", 0));
-  libGame_gv_players[9].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player9Hero", "Icon", 0));
-  libGame_gv_players[10].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player10Hero", "Icon", 0));
+  // libGame_gv_players[1].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player1Hero", "Icon", 0));
+  // libGame_gv_players[2].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player2Hero", "Icon", 0));
+  // libGame_gv_players[3].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player3Hero", "Icon", 0));
+  // libGame_gv_players[4].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player4Hero", "Icon", 0));
+  // libGame_gv_players[5].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player5Hero", "Icon", 0));
+  // libGame_gv_players[6].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player6Hero", "Icon", 0));
+  // libGame_gv_players[7].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player7Hero", "Icon", 0));
+  // libGame_gv_players[8].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player8Hero", "Icon", 0));
+  // libGame_gv_players[9].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player9Hero", "Icon", 0));
+  // libGame_gv_players[10].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player10Hero", "Icon", 0));
 
   
   libGame_gv_heroPickDone = true;

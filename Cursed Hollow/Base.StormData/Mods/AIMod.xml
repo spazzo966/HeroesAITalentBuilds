@@ -3,6 +3,16 @@
   <CGame id="Dflt">
     <TriggerLibs Id="HAITUT"/>
   </CGame>
+  
+  <!-- Fixing Self-Destruct not being used by AI -->
+  <CUnit id="HeroDVaMech">
+    <AIThinkTree value="AI\DVaMechSelfDestructFix.aitree" />
+  </CUnit>
+
+  <!-- Fixing Locust Swarm not being used by AI -->
+  <CUnit id="HeroAnubarak">
+    <AIThinkTree value="AI/AnubarakLocustSwarmFix.aitree" />
+  </CUnit>
 
   <CBehaviorBuff id="TutorialTowerRangeBehavior">
     <RemoveValidatorArray value="AlwaysReturnsFalse"/>
