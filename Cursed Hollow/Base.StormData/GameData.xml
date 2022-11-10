@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Includes>
+	<Catalog path="Mods/AIMod.xml" />
+	<Catalog path="Mods/Player1Data.xml" />
+	<Catalog path="Mods/Player2Data.xml" />
+	<Catalog path="Mods/Player3Data.xml" />
+	<Catalog path="Mods/Player4Data.xml" />
+	<Catalog path="Mods/Player5Data.xml" />
+	<Catalog path="Mods/Player6Data.xml" />
+	<Catalog path="Mods/Player7Data.xml" />
+	<Catalog path="Mods/Player8Data.xml" />
+	<Catalog path="Mods/Player9Data.xml" />
+	<Catalog path="Mods/Player10Data.xml" />
+</Includes>

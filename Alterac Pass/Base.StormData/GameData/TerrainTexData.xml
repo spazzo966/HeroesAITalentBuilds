@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CTerrainTex id="Storm_WoW_AlteracValley1">
+        <Texture value="Assets\Textures\storm_alterac_1.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_1normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley2">
+        <Texture value="Assets\Textures\storm_alterac_2.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_2normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley3">
+        <Texture value="Assets\Textures\storm_alterac_3.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_3normal.dds"/>
+        <HeightMapOffset value="1.000000"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley4">
+        <Texture value="Assets\Textures\storm_alterac_4.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_4normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley5">
+        <Texture value="Assets\Textures\storm_alterac_5.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_5normal.dds"/>
+        <HeightMapOffset value="1.000000"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley6">
+        <Texture value="Assets\Textures\storm_alterac_6.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_6normal.dds"/>
+        <HeightMapScale value="1.500000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley7">
+        <Texture value="Assets\Textures\storm_alterac_7.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_7normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley8">
+        <Texture value="Assets\Textures\storm_alterac_8.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_8normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley9">
+        <Texture value="Assets\Textures\storm_alterac_9.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_9normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley10">
+        <Texture value="Assets\Textures\storm_alterac_10.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_10normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley11">
+        <Texture value="Assets\Textures\storm_alterac_11.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_11normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="Storm_WoW_AlteracValley12">
+        <Texture value="Assets\Textures\storm_alterac_12.dds"/>
+        <Normalmap value="Assets\Textures\storm_alterac_12normal.dds"/>
+        <HeightMapScale value="3.000000"/>
+    </CTerrainTex>
+</Catalog>

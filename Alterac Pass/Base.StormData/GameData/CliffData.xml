@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CCliff id="UnknownTerrainCliff">
+        <CliffMesh value="Storm_Cliff_Natural0"/>
+        <CliffMaterial value="Assets\Cliffs\Storm_Cliff_WCAV_Material0\Storm_Cliff_WCAV_Material0.m3"/>
+    </CCliff>
+</Catalog>

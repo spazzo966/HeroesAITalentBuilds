@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CTerrain id="Storm_WoW_Alterac1">
+        <EditorCategories value="Climate:SpacePlatform"/>
+        <Lighting value="Storm_WCAV"/>
+        <TextureProp value="kingscrestgardens"/>
+        <Camera value="BlizzardAllStars"/>
+        <Ambience value="KingsCrestAmbientDay"/>
+        <ReverbAmbient value="BetaVerb"/>
+        <MinimapBackgroundColor value="255,0,0,32"/>
+        <BlendTextures value="Storm_WoW_AlteracValley1"/>
+        <BlendTextures value="Storm_WoW_AlteracValley2"/>
+        <BlendTextures value="Storm_WoW_AlteracValley3"/>
+        <BlendTextures value="Storm_WoW_AlteracValley4"/>
+        <BlendTextures value="Storm_WoW_AlteracValley5"/>
+        <BlendTextures value="Storm_WoW_AlteracValley6"/>
+        <BlendTextures value="Storm_WoW_AlteracValley7"/>
+        <BlendTextures value="Storm_WoW_AlteracValley8"/>
+        <HardTiles value="MarSaraTile"/>
+        <CliffSets value="UnknownTerrainCliff"/>
+        <FogEnabled value="1"/>
+        <FogColor value="255,79,129,183"/>
+        <FogDensity value="0.300000"/>
+        <FogFalloff value="0.350000"/>
+        <FogStartingHeight value="-0.900000"/>
+        <DoubleLambert value="0"/>
+        <HeightFlags index="AirSmoothing" value="0"/>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+    <CTerrain id="Storm_WoW_Alterac2" parent="Storm_WoW_Alterac1">
+        <BlendTextures index="0" value="Storm_WoW_AlteracValley9"/>
+        <BlendTextures index="1" value="Storm_WoW_AlteracValley10"/>
+        <BlendTextures index="2" value="Storm_WoW_AlteracValley11"/>
+        <BlendTextures index="3" value="Storm_WoW_AlteracValley12"/>
+        <BlendTextures index="4" removed="1"/>
+        <BlendTextures index="5" removed="1"/>
+        <BlendTextures index="6" removed="1"/>
+        <BlendTextures index="7" removed="1"/>
+        <FogColor value="255,86,68,45"/>
+        <FogDensity value="0.060000"/>
+        <FogFalloff value="0.200000"/>
+        <CliffSets index="0" value="StormCastleCliff0"/>
+        <CliffSets value="StormCastleCliff1"/>
+    </CTerrain>
+</Catalog>

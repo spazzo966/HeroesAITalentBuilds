@@ -1,0 +1,129 @@
+include "TriggerLibs/NativeLib"
+include "TriggerLibs/HeroesLib"
+include "TriggerLibs/GameLib"
+include "TriggerLibs/AILib"
+include "TriggerLibs/UILib"
+include "TriggerLibs/MapMechanicsLib"
+include "TriggerLibs/SoundLib"
+include "TriggerLibs/GameDataHelperLib"
+
+include "LibHAITUT_h"
+
+//--------------------------------------------------------------------------------------------------
+// Library: AI Talent Selection
+//--------------------------------------------------------------------------------------------------
+// External Library Initialization
+void libHAITUT_InitLibraries () {
+    libNtve_InitVariables();
+    libGame_InitVariables();
+}
+
+// Variable Initialization
+bool libHAITUT_InitVariables_completed = false;
+
+void libHAITUT_InitVariables () {
+  int init_i;
+    if (libHAITUT_InitVariables_completed) {
+        return;
+    }
+
+    libHAITUT_gv_HeroSelectComplete = false;
+    libHAITUT_InitVariables_completed = true;
+    
+
+}
+
+// Presets
+// Functions
+
+// Triggers
+//--------------------------------------------------------------------------------------------------
+// Trigger: Map Initialization - Set Heroes Callback
+//--------------------------------------------------------------------------------------------------
+bool LibHAITUT_gt_CreateDialogTalentControls_Func (bool testConds, bool runActions) {
+  // Automatic Variable Declarations
+  
+  // Actions
+  if (!runActions) {
+      return true;
+  }
+
+  libGame_gv_pickingHeroesCallback = libHAITUT_gt_ShufflePickHeroSelectionCallback;
+
+  return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void LibHAITUT_gt_CreateDialogTalentControls_Init () {
+  LibHAITUT_gt_CreateDialogTalentControls = TriggerCreate("LibHAITUT_gt_CreateDialogTalentControls_Func");
+  TriggerAddEventMapInit(LibHAITUT_gt_CreateDialogTalentControls);
+}
+
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Shuffle Pick Hero Selection Callback
+//--------------------------------------------------------------------------------------------------
+bool libHAITUT_gt_ShufflePickHeroSelectionCallback_Func (bool testConds, bool runActions) {
+  // Variable Declarations
+
+  // Automatic Variable Declarations
+  // Variable Initialization
+
+  // Actions
+  if (!runActions) {
+      return true;
+  }
+  
+
+  libGame_gv_randomizeMountsAndSkins = false;
+  libHAITUT_gf_ARM_HeroPickUIInit();
+  return true;
+}
+//--------------------------------------------------------------------------------------------------
+void libHAITUT_gt_ShufflePickHeroSelectionCallback_Init () {
+  libHAITUT_gt_ShufflePickHeroSelectionCallback = TriggerCreate("libHAITUT_gt_ShufflePickHeroSelectionCallback_Func");
+}
+
+void libHAITUT_gf_ARM_HeroPickUIInit () {
+
+  libGame_gv_heroPickDone = false;
+
+  libGame_gv_players[1].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player1Hero", "Icon", 0));
+  libGame_gv_players[2].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player2Hero", "Icon", 0));
+  libGame_gv_players[3].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player3Hero", "Icon", 0));
+  libGame_gv_players[4].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player4Hero", "Icon", 0));
+  libGame_gv_players[5].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player5Hero", "Icon", 0));
+  libGame_gv_players[6].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player6Hero", "Icon", 0));
+  libGame_gv_players[7].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player7Hero", "Icon", 0));
+  libGame_gv_players[8].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player8Hero", "Icon", 0));
+  libGame_gv_players[9].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player9Hero", "Icon", 0));
+  libGame_gv_players[10].lv_heroIndex = libCore_gf_GetIndexFromHero(CatalogFieldValueGet(c_gameCatalogButton, "Player10Hero", "Icon", 0));
+
+  
+  libGame_gv_heroPickDone = true;
+  libGame_gv_heroSpawnReady = true;
+
+}
+
+void libHAITUT_InitTriggers () {
+  LibHAITUT_gt_CreateDialogTalentControls_Init();
+  libHAITUT_gt_ShufflePickHeroSelectionCallback_Init();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+bool libHAITUT_InitLib_completed = false;
+
+void libHAITUT_InitLib () {
+    if (libHAITUT_InitLib_completed) {
+        return;
+    }
+
+    libHAITUT_InitLib_completed = true;
+
+    libHAITUT_InitLibraries();
+    libHAITUT_InitVariables();
+    libHAITUT_InitTriggers();
+}
+

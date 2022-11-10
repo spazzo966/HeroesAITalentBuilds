@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+  <CGame id="Dflt">
+    <TriggerLibs Id="HAITUT"/>
+  </CGame>
+
+  <CBehaviorBuff id="TutorialTowerRangeBehavior">
+    <RemoveValidatorArray value="AlwaysReturnsFalse"/>
+  </CBehaviorBuff>
+  <CBehaviorBuff id="TutorialTownHallRangeBehavior">
+    <RemoveValidatorArray value="AlwaysReturnsFalse"/>
+  </CBehaviorBuff>
+  
+</Catalog>

@@ -1,0 +1,31 @@
+include "TriggerLibs/natives"
+
+
+//--------------------------------------------------------------------------------------------------
+// Library: AI Talent Selection
+//--------------------------------------------------------------------------------------------------
+// Preset Declarations
+
+// Constants
+
+// Structures
+struct libHAITUT_gs_ControlsPanel {
+    int lv_readyButton;
+};
+
+// Variable Declarations
+libHAITUT_gs_ControlsPanel libHAITUT_gv_controlsPanel;
+bool libHAITUT_gv_HeroSelectComplete;
+
+// Function Declarations
+void libHAITUT_gf_ARM_HeroPickUIInit ();
+
+// Trigger Declarations
+trigger LibHAITUT_gt_CreateDialogTalentControls;
+trigger libHAITUT_gt_ShufflePickHeroSelectionCallback;
+trigger libHAITUT_gt_HeroesChosenButtonPressed;
+
+// Library Initialization
+void LibHAITUT_InitVariables ();
+
+

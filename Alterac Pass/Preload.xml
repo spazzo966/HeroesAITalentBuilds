@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="Storm_Doodad_KingsCrest_Campfire" Variations="1"/>
+<Actor id="Storm_Doodad_WCAV_Curtain" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_Curtain_Large" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_Peon_TreeChop"/>
+<Actor id="Storm_Doodad_WCAV_Peon_zzZLaying"/>
+<Actor id="Storm_Doodad_WCAV_Peon_zzZSitting"/>
+<Actor id="Storm_Doodad_WCAV_GnollBirthTrees"/>
+<Actor id="Storm_Doodad_WCAV_SoldierHut" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_A"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_B"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_C"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_D"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_E"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_F"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_G"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_H"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_I"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_J"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_K"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_L"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_M"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_N"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_O"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_P"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_Q"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AA"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AB"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AC"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AD"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AE"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AF"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AG"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AH"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AI"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AJ"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AK"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AL"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AM"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AN"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AO"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AP"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AQ"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_A" Variations="0,1,2,3,4"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_C" Variations="0,1,2,3,4"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_D"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_E"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_F" Variations="0,1,3,4"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_G" Variations="0,1,2"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_H"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_I" Variations="0,1,2"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_J"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_K"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AA" Variations="0,1,3,4"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AB"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AC" Variations="0,1,2,3,4,5"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AD"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AE"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AF" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AG" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AH"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AI"/>
+<Actor id="Storm_Doodad_WCAV_JungleOuter_AJ" Variations="0,2"/>
+<Actor id="Storm_Doodad_WCAV_Alliance_StartingPlatform"/>
+<Actor id="Storm_Doodad_WCAV_Horde_StartingPlatform"/>
+<Actor id="Storm_Doodad_WCAV_Rocks" Variations="0"/>
+<Actor id="Storm_Doodad_WCAV_Carpet"/>
+<Actor id="Storm_Doodad_WCAV_Structure" Variations="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+<Actor id="Storm_Doodad_WCAV_Alliance_CoreRange" Variations="0,1,2,3"/>
+<Actor id="Storm_Doodad_WCAV_Alliance_StartGate"/>
+<Actor id="Storm_Doodad_WCAV_Bridge"/>
+<Actor id="Storm_Doodad_WCAV_CaptureCage_Base"/>
+<Actor id="Storm_Doodad_WCAV_Horde_CoreRange" Variations="0,1,2,3,4"/>
+<Actor id="Storm_Doodad_WCAV_Horde_StartGate"/>
+<Actor id="Storm_Doodad_WCAV_IceShine"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AR" Variations="0,1,2,3,4"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_AS" Variations="1,3,4,5,6,7,8,11"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_S"/>
+<Actor id="Storm_Doodad_WCAV_Jungle_T" Variations="0,1,2"/>
+<Actor id="Storm_Doodad_WCAV_MercCampSlab"/>
+<Actor id="Storm_Doodad_WCAV_Mountain" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_SnowSplat"/>
+<Actor id="Storm_Doodad_WCAV_Snow" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_TarPit" Variations="0,1"/>
+<Actor id="Storm_Doodad_WCAV_Weapons" Variations="0,1,2,3,4,5,6,7,8,9,10,11,12,13"/>
+<Actor id="Storm_FX_OWVol_SnowDrift"/>
+<Actor id="Storm_FX_WCAV_BossLeashRingFX" Variations="0,1,2"/>
+<Actor id="Storm_FX_WCAV_SnowDrift"/>
+<AnnouncerPack id="DrekTharA"/>
+<AnnouncerPack id="VanndarA"/>
+<Behavior id="IsInCoreArena"/>
+<Terrain id="Storm_WoW_Alterac1"/>
+<Unit id="StormGameStartPathingBlockerDiagonal"/>
+<Unit id="StormGameStartPathingBlocker"/>
+<Unit id="TownGateL2VerticalLeftVisionBlocked"/>
+<Unit id="TownGateL2VerticalRightVisionBlocked"/>
+<Unit id="TownGateL215BRUL"/>
+<Unit id="TownGateL215BRULBLVisionBlocked"/>
+<Unit id="TownGateL3VerticalLeftVisionBlocked"/>
+<Unit id="TownGateL3VerticalRightVisionBlocked"/>
+<Unit id="TownGateL3BLURTLVisionBlocked"/>
+<Unit id="TownGateL3BLURBRVisionBlocked"/>
+<Unit id="TownGateL3BRULBLVisionBlocked"/>
+<Unit id="TownGateL3BRULTRVisionBlocked"/>
+<Unit id="TownCannonTowerL2"/>
+<Unit id="TownCannonTowerL3"/>
+<Unit id="TownMoonwellL2"/>
+<Unit id="TownMoonwellL3"/>
+<Unit id="TownTownHallL3"/>
+<Unit id="TownTownHallL2"/>
+<Unit id="HallOfStormsLocationUnit"/>
+<Unit id="TownWallRadial2L3" Variations="9"/>
+<Unit id="TownWallRadial3L3" Variations="2"/>
+<Unit id="TownWallRadial4L2" Variations="4"/>
+<Unit id="TownWallRadial5L2" Variations="1,6"/>
+<Unit id="TownWallRadial5L3" Variations="1"/>
+<Unit id="TownWallRadial6L2" Variations="0"/>
+<Unit id="TownWallRadial6L3" Variations="6"/>
+<Unit id="TownWallRadial8L3" Variations="3"/>
+<Unit id="TownWallRadial9L3" Variations="2"/>
+<Unit id="TownWallRadial14L3" Variations="3"/>
+<Unit id="TownWallRadial15L3" Variations="0"/>
+<Unit id="TownWallRadial16L2" Variations="3"/>
+<Unit id="TownWallRadial17L2" Variations="1,6"/>
+<Unit id="TownWallRadial17L3" Variations="7"/>
+<Unit id="TownWallRadial18L2" Variations="5"/>
+<Unit id="TownWallRadial18L3" Variations="8"/>
+<Unit id="TownWallRadial20L3" Variations="3"/>
+<Unit id="TownWallRadial21L3" Variations="2"/>
+<Unit id="LootBannerSconce"/>
+<Unit id="SpiritHealer"/>
+<Unit id="Peon_Dummy"/>
+<Unit id="Storm_Building_WCAV_Alliance_CaptureCage"/>
+<Unit id="Storm_Building_WCAV_Horde_CaptureCage"/>
+<Unit id="SnowDriftLarge"/>
+<Unit id="SnowDriftMedium"/>
+<Unit id="SnowDriftSmall"/>
+<Unit id="VanndarStormpike"/>
+<Unit id="DrekThar"/>
+</Preload>

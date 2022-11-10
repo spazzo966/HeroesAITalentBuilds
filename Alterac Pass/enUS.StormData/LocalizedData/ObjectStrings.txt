@@ -1,0 +1,9 @@
+﻿Actor/Name/LeashRange=Leash Range
+Actor/Name/Storm_Doodad_KingsCrest_RavenCourt_CoreRange=Storm_Doodad_KingsCrest_RavenCourt_CoreRange
+Behavior/Name/UnknownBehavior=Unknown Behavior
+Cliff/Name/UnknownTerrainCliff=Storm_Cliff_WCAV_Material_0
+Light/Name/CustomLight=CustomLight
+Model/Name/LeashRange=Leash Range
+Model/Name/Storm_Doodad_KingsCrest_RavenCourt_CoreRange=Storm_Doodad_KingsCrest_RavenCourt_CoreRange
+Sound/Name/LoadingMusic_OLDCursedHollow=LoadingMusic_OLDCursedHollow
+TerrainTex/Name/StormAlteracValley1=StormAlteracValley1

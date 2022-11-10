@@ -1,0 +1,28 @@
+﻿Category/Name/12C8FC3D=Boss Triggers
+Category/Name/28807812=== DATA HOOKUPS ==
+Category/Name/78D4F82D=== INITIALIZATION ==
+FunctionDef/Name/09463F88=Hookup Lane Data
+FunctionDef/Name/40ABEC68=Hookup Region Data
+FunctionDef/Name/4495DBD8=Hookup Global Variables
+FunctionDef/Name/60573985=Hookup Town Data
+FunctionDef/Name/9DD03F42=Hookup Mechanics Variables
+FunctionDef/Name/B9F99836=Hookup Jungle Creep Data
+Trigger/Name/28098511=Chaos Boss Is Aggro
+Trigger/Name/48486524=Chaos Boss Leashes
+Trigger/Name/5F9056E1=Unit Enters Chaos Boss Arena
+Trigger/Name/670BBCE1=Order Boss Leashes
+Trigger/Name/96F6F460=Unit Leaves Order Boss Arena
+Trigger/Name/9EBEFD2B=Initialize Visibility Revealers
+Trigger/Name/D0FC904F=Unit Leaves Chaos Boss Arena
+Trigger/Name/E5FF03C2=Order Boss Is Aggro
+Trigger/Name/EF52FAC5=Unit Enters Order Boss Arena
+Trigger/Name/FA4B29FB=Initialize Map
+Variable/Name/1BA31352=eventUnit
+Variable/Name/26E4DB64=town
+Variable/Name/389DC3A6=structureCount
+Variable/Name/56F04FF4=waypointCount
+Variable/Name/766D8959=eventUnit
+Variable/Name/825A1759=eventUnit
+Variable/Name/984F6ACE=jungleCamp
+Variable/Name/9B209BAC=eventUnit
+Variable/Name/A61E762A=lane

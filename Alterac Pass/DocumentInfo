@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <Icon>
+        <Value>Storm_UI_Gamemode_MapSelect_Alterac_Pass.png</Value>
+    </Icon>
+    <MatchMakerTag>
+        <Value>Hero</Value>
+    </MatchMakerTag>
+    <Dependencies>
+        <Value>bnet:Alterac Pass (Mod)/0.0/1130,file:Mods\heroesmapmods/battlegroundmapmods/alteracpass.stormmod</Value>
+    </Dependencies>
+    <ModifiableDependencies>
+        <Value>Mods/HeroesData.StormMod</Value>
+        <Value>Mods\heroesmapmods/battlegroundmapmods/warcraftdata.stormmod</Value>
+        <Value>Mods\heroesmapmods/battlegroundmapmods/alteracpass.stormmod</Value>
+    </ModifiableDependencies>
+</DocInfo>

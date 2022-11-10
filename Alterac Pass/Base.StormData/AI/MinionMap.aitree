@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<tree>
+  <include file="AI/MinionBase.aitree" />
+  <mod id="00000000746F6F52">
+    <variable name="Laning State" type="Integer" />
+    <insertChild id="4EFA65734A480AEC" before="" />
+    <insertChild id="A88F7DCDB55CD1F5" after="6124111A080B002C" />
+  </mod>
+  <mod id="6124111A080B002C">
+    <insertChild id="F6978E46FE333E42" />
+  </mod>
+  <node name="Lane To Core" type="FindPointOnLine" id="8F916D0248FE44AE">
+    <property name="OutputTarget" value="Next Way Point" />
+    <property name="SourceUnit" valueSource="intrinsic" value="EnemyCore" />
+  </node>
+  <node name="Default To Lane To Core" type="SetInteger" id="4EFA65734A480AEC">
+    <property name="Variable" value="Laning State" />
+    <property name="Value" valueSource="literal" value="1" />
+  </node>
+  <node name="Laning To Core" type="CompareNumber" id="A88F7DCDB55CD1F5">
+    <property name="LeftHandSide" valueSource="variable" value="Laning State" />
+    <property name="RightHandSide" valueSource="literal" value="1" />
+    <insertChild id="8F916D0248FE44AE" />
+  </node>
+  <node name="Lane To Waypoint" type="SetInteger" id="F6978E46FE333E42">
+    <property name="Variable" value="Laning State" />
+    <property name="Value" valueSource="literal" value="0" />
+  </node>
+</tree>
